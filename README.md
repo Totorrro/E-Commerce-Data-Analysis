@@ -54,7 +54,7 @@ The following data quality checks were performed:
 **Validation Outcome:**  
 The dataset passed all validation checks with no missing values, invalid discounts, or inconsistent pricing logic detected.
 
-📁 SQL file: `SQL/E-Commerce SQL Data Analysis.pgsql`
+📁 SQL file: [View SQL File](SQL/E-Commerce_SQL_Data_Analysis.pgsql)
 
 ---
 
