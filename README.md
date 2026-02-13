@@ -33,6 +33,10 @@ The dataset contains transaction-level e-commerce data with the following fields
 - payment_method  
 - purchase_date  
 
+Currency: Indian Rupees (₹)
+
+📁 CSV file: `Data/E-Commerce Dataset.csv`
+
 ---
 
 ## 🧹 Data Validation (SQL)
@@ -47,7 +51,10 @@ The following data quality checks were performed:
 - Data type validation  
 - Date range validation  
 
-📁 SQL file: `sql/sql_validation.sql`
+**Validation Outcome:**  
+The dataset passed all validation checks with no missing values, invalid discounts, or inconsistent pricing logic detected.
+
+📁 SQL file: `SQL/E-Commerce SQL Data Analysis.pgsql`
 
 ---
 
@@ -61,70 +68,70 @@ Key analyses performed:
 - Payment method usage analysis  
 - Discount impact on sales volume and revenue  
 
-📁 SQL file: `sql/sql_analysis.sql`
+📁 SQL file: `SQL/E-Commerce SQL Data Analysis.pgsql`
 
 ---
 
 ## 📈 Power BI Report
 
-The Power BI report contains three pages:
+The Power BI report contains two pages:
 
-### 1️⃣ Executive Overview  
+### 1️⃣ Sales Performance  
 - Total Revenue  
+- Total Transactions  
 - Total Customers  
 - Average Order Value (AOV)  
+- Customer Lifetime Value (CLV)  
 - Revenue trend by month  
 - Revenue by category  
-- Payment method distribution  
+- Revenue by payment method  
 
-### 2️⃣ Customer Insights  
-- Customer Lifetime Value (CLV)  
-- Purchase frequency  
-- Customer segmentation (One-time vs Repeat buyers)  
+### 2️⃣ Discount Strategy Analysis  
+- Total revenue by discount bucket  
+- Total transaction volume by discount bucket  
 
-### 3️⃣ Discount Strategy Analysis  
-- Revenue by discount bracket  
-- Sales volume by discount level  
-- Average transaction value by discount  
-
-📁 Power BI file: `powerbi/ecommerce_dashboard.pbix`  
-📁 PDF export: `powerbi/ecommerce_dashboard.pdf`
+📁 Power BI file: `Power BI/E-Commerce Power BI.pbix`  
+📁 PDF export: `Power BI/E-Commerce Report.pdf`
 
 ---
 
 ## 🖼 Dashboard Screenshots
 
-### Executive Overview
-![Overview](screenshots/overview.png)
+### Sales Performance
+![Sales Performance](Screenshot/Sales_Performance.png)
 
-### Customer Insights
-![Customer](screenshots/customer.png)
-
-### Discount Analysis
-![Discount](screenshots/discount.png)
+### Discount Impact
+![Discount Impact](Screenshot/Discount_Impact.png)
 
 ---
 
 ## 💡 Key Business Insights
 
-- Revenue is evenly distributed across product categories.  
-- Credit card and UPI are the most frequently used payment methods.  
+### 📈 Revenue Trend
+- November is one of the strongest months on a daily basis, with ₹2,472 revenue per day and 0.8% growth over October.  
+- Top-performing months by daily revenue are April (₹2,478/day), November (₹2,472/day), and October (₹2,452/day).  
+- The largest daily growth occurred in July (+9.6%), October (+8.1%), and April (+7.7%).  
+- A seasonal dip was observed in May and June, with June showing the lowest daily revenue (₹2,141/day).  
+- Overall revenue is stable between ₹2,200–₹2,470 per day, indicating consistent business performance.  
+
+### 👤 Customer Lifetime Value (CLV)
+- All customers made only one purchase during the period, indicating zero retention.  
+- CLV is equal to AOV (₹206.91), showing the business relies heavily on acquiring new customers rather than repeat purchases.  
+
+### 🛍 Revenue by Category
+- Clothing is the top-performing category, contributing 15.2% of total revenue with the highest average transaction value.  
+- Home & Kitchen has the highest transaction volume but lower average spend.  
+- Revenue distribution across categories is balanced, reducing dependency on a single product segment.  
+
+### 💳 Payment Method Analysis
+- Credit cards are the most popular payment method, contributing 20.8% of transactions and the highest revenue.  
+- Cash on Delivery (COD) has the highest average transaction value, despite lower usage.  
+- Average transaction value is consistent across payment methods, indicating stable customer spending behavior.  
+
+### 🎯 Discount Strategy Analysis
 - Higher discounts increase sales volume but reduce average transaction value.  
-- Most customers are one-time buyers, indicating low retention.  
-- Average Order Value is around 200, indicating a mid-priced e-commerce platform.  
+- The 5–10% discount tier generates the highest total revenue, representing the most effective pricing strategy.  
+- Heavy discounts (25%+) increase transactions but reduce revenue efficiency.  
+- Full-price purchases have the highest average spend, indicating a premium customer segment with strong price tolerance.  
 
 ---
-
-## 🚀 Future Improvements
-
-- Build a star schema (fact and dimension tables)  
-- Perform RFM customer segmentation  
-- Conduct cohort retention analysis  
-- Add product cost data to calculate profit  
-- Forecast future revenue trends  
-
----
-
-## 📬 Contact
-
-Feel free to connect with me on GitHub or LinkedIn for collaboration opportunities.
