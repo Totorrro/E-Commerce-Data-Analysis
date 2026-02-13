@@ -104,8 +104,7 @@ The Power BI report contains two pages:
 
 ## 💡 Key Business Insights
 
-### 📈 Revenue Trend
-- November is one of the strongest months on a daily basis, with ₹2,472 revenue per day and 0.8% growth over October.  
+### 📈 Revenue Trend 
 - Top-performing months by daily revenue are April (₹2,478/day), November (₹2,472/day), and October (₹2,452/day).  
 - The largest daily growth occurred in July (+9.6%), October (+8.1%), and April (+7.7%).  
 - A seasonal dip was observed in May and June, with June showing the lowest daily revenue (₹2,141/day).  
@@ -127,7 +126,7 @@ The Power BI report contains two pages:
 
 ### 🎯 Discount Strategy Analysis
 - Higher discounts increase sales volume but reduce average transaction value.  
-- The 5–10% discount tier generates the highest total revenue, representing the most effective pricing strategy.  
+- The 5–10% discount tier generates the highest daily revenue, representing the most effective pricing strategy.  
 - Heavy discounts (25%+) increase transactions but reduce revenue efficiency.  
 - Full-price purchases have the highest average spend, indicating a premium customer segment with strong price tolerance.  
 
