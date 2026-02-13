@@ -73,18 +73,18 @@ Key analyses performed:
 The Power BI report contains two pages:
 
 ### 1️⃣ Sales Performance  
-- Total Revenue  
-- Total Transactions  
-- Total Customers  
+- Total revenue
+- Revenue per day
+- Total transactions  
 - Average Order Value (AOV)  
 - Customer Lifetime Value (CLV)  
-- Revenue trend by month  
-- Revenue by category  
-- Revenue by payment method  
+- Revenue per day by month  
+- Revenue per day by category  
+- Revenue per day by payment method  
 
 ### 2️⃣ Discount Strategy Analysis  
-- Total revenue by discount bucket  
-- Total transaction volume by discount bucket  
+- Revenue per day by discount bucket  
+- Total transactions by discount bucket  
 
 📁 Power BI file: [📊 View Power BI Report](Power_BI/E-Commerce_Power_BI.pbix)
 
