@@ -35,7 +35,7 @@ The dataset contains transaction-level e-commerce data with the following fields
 
 Currency: Indian Rupees (₹)
 
-📁 CSV file: `Data/E-Commerce Dataset.csv`
+📁 CSV file: [View CSV File](Data/E-Commerce_Dataset.csv)
 
 ---
 
@@ -54,10 +54,6 @@ The following data quality checks were performed:
 **Validation Outcome:**  
 The dataset passed all validation checks with no missing values, invalid discounts, or inconsistent pricing logic detected.
 
-📁 SQL file: [View SQL File](SQL/E-Commerce_SQL_Data_Analysis.pgsql)
-
----
-
 ## 📊 Data Analysis (SQL)
 
 Key analyses performed:
@@ -68,7 +64,7 @@ Key analyses performed:
 - Payment method usage analysis  
 - Discount impact on sales volume and revenue  
 
-📁 SQL file: `SQL/E-Commerce SQL Data Analysis.pgsql`
+📁 SQL file: [View SQL File](SQL/E-Commerce_SQL_Data_Analysis.pgsql)
 
 ---
 
@@ -90,8 +86,8 @@ The Power BI report contains two pages:
 - Total revenue by discount bucket  
 - Total transaction volume by discount bucket  
 
-📁 Power BI file: `Power BI/E-Commerce Power BI.pbix`  
-📁 PDF export: `Power BI/E-Commerce Report.pdf`
+📁 Power BI file: [📊 Download Power BI Report](Power_BI/E-Commerce_Power_BI.pbix)
+📁 PDF export: [📄 View Project Report (PDF)](Power_BI/E-Commerce_Report.pdf)
 
 ---
 
