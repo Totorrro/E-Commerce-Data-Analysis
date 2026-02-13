@@ -98,7 +98,7 @@ The Power BI report contains two pages:
 ![Sales Performance](Screenshot/Sales.png)
 
 ### Customer & Category
-![Customer & Category](Screenshot/Customer&Category.png)
+![Customer & Category](Screenshot/Customer_&_Category.png)
 
 ### Payment Method & Discount
 ![Payment Method & Discount](Screenshot/Payment_Method_&_Discount.png)
