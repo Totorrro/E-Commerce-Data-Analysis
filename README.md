@@ -95,10 +95,13 @@ The Power BI report contains two pages:
 ## 🖼 Dashboard Screenshots
 
 ### Sales Performance
-![Sales Performance](Screenshot/Sales_Performance.png)
+![Sales Performance](Screenshot/Sales.png)
 
-### Discount Impact
-![Discount Impact](Screenshot/Discount_Impact.png)
+### Customer & Category
+![Customer & Category](Screenshot/Customer&Category.png)
+
+### Payment Method & Discount
+![Payment Method & Discount](Screenshot/Payment_Method_&_Discount.png)
 
 ---
 
