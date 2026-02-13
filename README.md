@@ -86,7 +86,8 @@ The Power BI report contains two pages:
 - Total revenue by discount bucket  
 - Total transaction volume by discount bucket  
 
-📁 Power BI file: [📊 Download Power BI Report](Power_BI/E-Commerce_Power_BI.pbix)
+📁 Power BI file: [📊 View Power BI Report](Power_BI/E-Commerce_Power_BI.pbix)
+
 📁 PDF export: [📄 View Project Report (PDF)](Power_BI/E-Commerce_Report.pdf)
 
 ---
